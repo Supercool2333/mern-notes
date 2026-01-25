@@ -1,0 +1,31 @@
+<div class="my-5 border rounded p-5 container w-50">
+  <h1 class="text-center mb-5">Reactive Forms</h1>
+  <form [formGroup]="loginForm" (ngSubmit)="login()">
+    <div class="mb-3">
+      <label for="exampleInputEmaill" class="form-label">Email address</label>
+      <input
+        formControlName="email"
+        type="email"
+        class="form-control"
+        id="exampleInputEmaill"
+        aria-describedby="emailHelp"
+      />
+      @if(loginForm.get("email")?.errors && loginForm.get("email")?.touched) {
+      <div class="text-danger fw-bolder">Invalid Email</div>
+      }
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input
+        formControlName="password"
+        type="password"
+        class="form-control"
+        id="exampleInputPassword1"
+      />
+      @if(loginForm.get("password")?.errors && loginForm.get("password")?.touched) {
+      <div class="text-danger fw-bolder">Invalid Password</div>
+      }
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

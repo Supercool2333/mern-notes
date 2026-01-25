@@ -1,0 +1,99 @@
+<h1 [style.color]="titleColor">{{ title | append : '-Title Updated' | uppercase }}</h1>
+<ol>
+  <li>
+    Data binding
+    <ul>
+      <li>
+        One way binding (Ts to HTML)
+        <ul>
+          <li>Interpolation</li>
+          <li>Property Binding</li>
+          <li>Style Binding</li>
+        </ul>
+      </li>
+      <li>
+        One way binding (HTML to TS)
+        <ul>
+          <li>Event Binding:</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+<img width="500px" [src]="imgUrl" alt="" /> <br />
+<button (click)="showAlert('Alert From Component')" class="btn btn-primary">Show Alert</button>
+<div>
+  <h1>{{ count }}</h1>
+  <button (click)="increment()" class="btn btn-success">Increment</button>
+  <input
+    (keyup)="getUsername($event)"
+    type="text"
+    class="form-control w-50 m-5"
+    placeholder="Enter your name"
+  />
+  <h1 class="m-5">Username : {{ username }}</h1>
+  <input #desig type="text" class="form-control w-50 m-5" placeholder="Enter your Designation" />
+  <button class="m-2 btn btn-success" (click)="getUser(desig)">Get Designation</button>
+
+  <p [ngClass]="styleClass">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda provident repudiandae
+    sapiente optio fugiat ipsa consequuntur, commodi nam, ipsum dolor adipisci, reiciendis enim vero
+    iste hic labore cupiditate totam ducimus.
+  </p>
+
+  <input
+    [(ngModel)]="userAddress"
+    type="text"
+    class="form-control w-50 mt-3 me-5"
+    placeholder="Enter Your Address"
+  />
+  <p>Address: {{ userAddress }}</p>
+
+  <h1>
+    UserStatus: @if(userStatus) {
+    <span>Active</span>
+    }@else {
+    <span>Inactive</span>
+    }
+  </h1>
+
+  <h2>All Users</h2>
+  <ol>
+    @for(name of userList; track $index) {
+    <li>{{ name }}</li>
+    }
+  </ol>
+  <h1>today: {{ today | date : 'shortDate' }}</h1>
+
+  <button (click)="showService()" class="btn btn-success">Show service API</button>
+
+  <h1>All posts</h1>
+  <table class="table my-5">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Title</th>
+        <th>Body</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for(post of allpost; track $index; let i = $index) {
+      <tr>
+        <td>{{ i + 1 }}</td>
+        <td>{{post.title }}</td>
+        <td>{{ post.body }}</td>
+      </tr>
+      }
+    </tbody>
+  </table>
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+</div>

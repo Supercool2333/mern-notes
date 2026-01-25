@@ -1,0 +1,14 @@
+/workfiles
+*.sketch
+*.fig
+*.xd
+.DS_Store
+.prettierignore
+/design
+/Other
+/Tasks
+/CSS/portfolio
+/EXAM
+/REACT/bookstore/backend/.env
+/REACT/bookstore/backend/.env
+/REACT/bookstore/backend/uploads

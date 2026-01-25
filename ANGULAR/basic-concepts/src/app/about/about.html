@@ -1,0 +1,46 @@
+<p>about works!</p>
+<!-- child componnet -user
+parent Component -about -->
+<app-user (onAlert)="showAlert($event)" [username]="data"></app-user>
+{{ email }}
+{{ password }}
+
+<div class="my-5 container">
+  <form #loginForm="ngForm" (ngSubmit)="login()">
+    <div class="mb-3">
+      <label for="exampleInputEmaill" class="form-label">Email address</label>
+      <input
+        #emailInput="ngModel"
+        [(ngModel)]="email"
+        name="email"
+        type="email"
+        class="form-control"
+        id="exampleInputEmaill"
+        aria-describedby="emailHelp"
+        required
+        email
+      />
+      @if(emailInput.invalid && emailInput.touched) {
+      <div class="text-danger fw-bolder">Invalid Email</div>
+      }
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input
+        #pswdInput="ngModel"
+        [(ngModel)]="password"
+        name="password"
+        type="password"
+        class="form-control"
+        id="exampleInputPassword1"
+        required
+        pattern="[a-zA-Z0-9]*"
+      />
+      @if(pswdInput.invalid && pswdInput.touched) {
+      <div class="text-danger fw-bolder">Invalid Password</div>
+      }
+    </div>
+
+    <button [disabled]="loginForm.invalid" type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
